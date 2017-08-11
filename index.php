@@ -6,24 +6,296 @@
 	<link href='admin/style.css' rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<div id="header">
-		<img src="admin/image/logo.png" alt="" />
+	<div id="topheader">
+		<a href=""><img src="admin/image/logo.png" alt="" /></a>
 		<nav>
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="about.php">About</a></li>
+				<li><a href="contact.php">Contact</a></li>
 			</ul>
 		</nav>
 	</div>
-
-	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 	
-	<footer>
+	<div id="aramakutusu">
+		<input type="text" name="find" placeholder="Aramak İstediğiniz Program" required />
+		<input type="submit" name="ara" value="Alternatif Bul" />
+	</div>
+	
+	<div class="kategori">
+		<h2>Fotoğraf Düzenleme</h2>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+	</div>
+	<div class="kategori">
+		<h2>Kategori</h2>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> asdasşlkdaldjshkashdjk
+			asdghagsfdjaskhdalkjsdkas
+			hdkash dkljahs </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+	</div>
+	<div class="kategori">
+		<h2>Kategori</h2>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> asdasşlkdaldjshkashdjk
+			asdghagsfdjaskhdalkjsdkas
+			hdkash dkljahs </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+	</div>
+	<div class="kategori">
+		<h2>Fotoğraf Düzenleme</h2>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+	</div><div class="kategori">
+		<h2>Fotoğraf Düzenleme</h2>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+	</div><div class="kategori">
+		<h2>Fotoğraf Düzenleme</h2>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+	</div>
+	<div class="kategori">
+		<h2>Kategori</h2>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> asdasşlkdaldjshkashdjk
+			asdghagsfdjaskhdalkjsdkas
+			hdkash dkljahs </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+	</div>
+	
+	<div class="kategori">
+		<h2>Kategori</h2>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> asdasşlkdaldjshkashdjk
+			asdghagsfdjaskhdalkjsdkas
+			hdkash dkljahs </p>
+		</div>
+		<div class="program">
+			<img src="admin/image/1.png" />
+			<h4> Photoshop programı 4.1.2 sürümü</h4>
+			<p> Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek
+			için alternatif mükemmel bir program Fotoğraflarınızı düzenlemek için alternatif mükemmel bir program </p>
+		</div>
+	</div>
+
+	
+	<div class="footer">
 		<span>
 		Copyright ©2017 alternatif.com <br />
 		All rights reserved.
 		<span>
-	</footer>
+	</div>
 </body>
 </html>
