@@ -1,0 +1,41 @@
+
+*{margin:0px; padding:0px;}
+body{background:#FAFAFA}
+ul,li{list-style:none;}
+a{text-decoration:none}
+
+/* Header Ayarlarý */
+#header{position:fixed; top:0; width:94%; height:100px; padding:0px 3%; background:#2C4961; z-index:999}
+#header img{height:60px; margin-top:20px;}
+.nav{float:right;}
+.nav ul{}
+.nav ul li{}
+.nav ul li a{display:block; padding:5px 10px; line-height:60px; color:#eee; font-size:22px;}
+
+/* Ýndex Sayfasý */
+#header nav{float:right}
+#header nav ul{}
+#header nav ul li{float:left;}
+#header nav ul li a {display:block; padding:8px 13px; font-size:19px; color:#FAFAFA; margin-top:60px;}
+
+
+
+
+/* Sol Navigasyon */
+#left-nav{position:fixed; top:100px; width:250px; height:650px; background:#386D90; border-top:2px solid #fff}
+#left-nav ul{}
+#left-nav ul li a{display:block; padding:9px 25px; font-size:22px; color:#FAFAFA; border-bottom:2px solid #FAFAFA;}
+
+
+/* Hareketli Ýçerik Alaný */
+#content{width:1000px; height:auto; position:absolute; top:140px; left:300px; border:2px solid #FAFAFA; margin-bottom:40px}
+.icerik{width:94%; padding:40px 3%;  background:#eee; }
+.icerik input[type="text"]{padding:4px 10px; border-radius:6px; font-size:17px; margin-top:10px; width:300px}
+.icerik input[type="password"]{padding:4px 10px; border-radius:6px; font-size:17px; margin-top:10px; width:300px}
+.icerik input[type="file"]{width:300px; padding:10px; font-size:16px; color:#555; border-radius:20px;}
+.icerik input[type="submit"]{padding:8px 15px; border-radius:6px; font-size:19px; color:#FAFAFA; background:#386D90; border:0;}
+.icerik input[type="submit"]:active{background:#2C4961}
+.icerik textarea{width:300px; resize:none; height:100px; border-radius:6px; margin-top:10px;padding:8px; font-size:17px}
+
+
+footer{width:94%; padding:10px 3%; margin-top:-18px; color:#FAFAFA; background:#2C4961; }
