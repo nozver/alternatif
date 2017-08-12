@@ -26,7 +26,9 @@
 
 	if(isset($_POST["kayit"])){
 
+		try{
 		$logo = $_FILES["logo"]["tmp_name"];
+		$logo_uzantisi = $_FILES["logo"]["type"];
 		$p_isim = $_POST["p_isim"];
 		$p_aciklama = $_POST["p_aciklama"];
 		$p_lisans = $_POST["p_lisans"];
@@ -37,6 +39,7 @@
 
 		$kayit = $db->prepare("INSERT INTO programlar SET
 													program_logo=?,
+													logo_uzantisi=?,
 													program_isim=?,
 													program_aciklama=?,
 													program_lisans=?,
@@ -45,13 +48,17 @@
 
 
 		$kayit->bindParam(1, $blob, PDO::PARAM_LOB);
-		$kayit->bindParam(2, $p_isim);
-		$kayit->bindParam(3, $p_aciklama);
-		$kayit->bindParam(4, $p_lisans);
-		$kayit->bindParam(5, $p_tur);
-		$kayit->bindParam(6, $p_kategori);
+		$kayit->bindParam(2, $logo_uzantisi);
+		$kayit->bindParam(3, $p_isim);
+		$kayit->bindParam(4, $p_aciklama);
+		$kayit->bindParam(5, $p_lisans);
+		$kayit->bindParam(6, $p_tur);
+		$kayit->bindParam(7, $p_kategori);
 
 		$ekleme = $kayit->execute();
+	}catch(Exception $e){
+		echo $e;
+	}
 		if($ekleme){
 			echo " <script type=\"text/javascript\">
     alert(\"kayit başarılı...\");
