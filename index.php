@@ -17,21 +17,21 @@
 		$kategoriler = array_unique($kategoriler);
 	foreach ($kategoriler as $kategori) {
 		printf('<div class="kategori">
-			<h2>%s</h2>',strtoupper($kategori));
+			<h2>%s</h2>',$kategori);
 
 			$secim = $db->prepare("SELECT * FROM programlar WHERE program_kategori=?");
 			$secim->execute(array($kategori));
 
 			$secim_sonuc = $secim->fetchAll(PDO::FETCH_ASSOC);
 			foreach ($secim_sonuc as $key => $value) {
-				printf('<div class="program">
+				printf('<a href="ozgur-alternatif.php?program=%s"><div class="program">
 					<img src="admin/show-image.php?id=%s" />
 					<h4> %s </h4>
 					<p> %s </p>
-				</div>',$value["program_id"],$value["program_isim"],$value["program_aciklama"]);
+			</div>',$value["program_isim"],$value["program_id"],$value["program_isim"],$value["program_aciklama"]);
 			}
 
-		printf("</div>");
+		printf("</div></a>");
 	}
 
 		?>
