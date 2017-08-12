@@ -1,0 +1,114 @@
+﻿*{margin:0px; padding:0px;}
+body{background:#FAFAFA}
+ul,li{list-style:none;}
+a{text-decoration:none}
+
+@media only screen and (min-width: 960px){ 
+	
+	/* İndex Sayfası */
+#topheader{width:94%; height:100px; padding:0px 3%; background:#183B57; border-bottom:4px solid #eee}
+#topheader img{height:60px; margin-top:20px;}
+#topheader nav{float:right}
+#topheader nav ul{}
+#topheader nav ul li{float:left;}
+#topheader nav ul li a {display:block; padding:8px 13px; font-size:19px; color:#FAFAFA; margin-top:60px;}
+
+
+#aramakutusu{width:90%; height:200px; padding:10px 5%; line-height:200px; background:#406787; text-align:Center}
+#aramakutusu input{padding:12px 10px; border-radius:7px; font-size:17px; margin:0 15px; color:#444}
+#aramakutusu input[type="text"]{width:400px}
+#aramakutusu input[type='submit']{font-size:19px; font-weight:bold; background:#15b093; border:0;  color:#FAFAFA; width:175px}
+#aramakutusu input[type='submit']:hover{border:1px solid #eee}
+
+.kategori{width:90%; height:auto; margin:50px 5%; background:#EFEFEF; padding:10px; padding-bottom:30px}
+.kategori h2{color:#0277BD}
+.program{width:30%; height:80px; line-height:19px; color:#666; overflow:hidden; display:inline-block; margin-right:2%; margin-top:15px; padding:3px; border:1px solid #ccc }
+.program h4{margin-bottom:5px; color:#555}
+.program img{width:70px; margin:5px; float:left}
+
+
+.footer{width:90%; padding:10px 5%; margin-top:-18px; color:#FAFAFA; background:#2C4961; }
+
+
+}
+@media only screen and (min-width: 801px) and (max-width: 959px)  {
+
+	/* İndex Sayfası */
+#topheader{width:94%; height:100px; padding:0px 3%; background:#183B57; border-bottom:4px solid #eee}
+#topheader img{height:60px; margin-top:20px;}
+#topheader nav{float:right}
+#topheader nav ul{}
+#topheader nav ul li{float:left;}
+#topheader nav ul li a {display:block; padding:8px 13px; font-size:19px; color:#FAFAFA; margin-top:60px;}
+
+
+#aramakutusu{width:90%; height:200px; padding:10px 5%; line-height:200px; background:#406787; text-align:Center}
+#aramakutusu input{padding:12px 10px; border-radius:7px; font-size:17px; margin:0 15px; color:#444}
+#aramakutusu input[type="text"]{width:400px}
+#aramakutusu input[type='submit']{font-size:19px; font-weight:bold; background:#15b093; border:0;  color:#FAFAFA; width:175px}
+#aramakutusu input[type='submit']:hover{border:1px solid #eee}
+
+.kategori{width:90%; height:auto; margin:50px 5%; background:#EFEFEF; padding:10px; padding-bottom:30px}
+.kategori h2{color:#0277BD}
+.program{width:44%; height:80px; line-height:19px; color:#666; overflow:hidden; display:inline-block; margin-right:2%; margin-top:15px; padding:3px; border:1px solid #ccc }
+.program h4{margin-bottom:5px; color:#555}
+.program img{width:70px; margin:5px; float:left}
+
+
+.footer{width:90%; padding:10px 5%; margin-top:-18px; color:#FAFAFA; background:#2C4961; }
+
+
+}
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+	
+#topheader{width:94%; height:100px; padding:0px 3%; background:#183B57; border-bottom:4px solid #eee}
+#topheader img{height:40px; margin-top:30px;}
+#topheader nav{float:right}
+#topheader nav ul{}
+#topheader nav ul li{float:left;}
+#topheader nav ul li a {display:block; padding:8px 13px; font-size:19px; color:#FAFAFA; margin-top:60px;}
+
+
+#aramakutusu{width:90%; height:200px; padding:10px 5%; line-height:200px; background:#406787; text-align:Center}
+#aramakutusu input{padding:12px 10px; border-radius:7px; font-size:17px; margin:10px 0px; color:#444}
+#aramakutusu input[type="text"]{width:300px; margin-top:45px;}
+#aramakutusu input[type='submit']{font-size:19px; font-weight:bold; background:#15b093; border:0;  color:#FAFAFA; width:320px}
+#aramakutusu input[type='submit']:hover{border:1px solid #eee}
+
+.kategori{width:90%; height:auto; margin:50px 3%; background:#EFEFEF; padding:2%; padding-bottom:30px}
+.kategori h2{color:#0277BD}
+.program{width:95%; height:80px; line-height:19px; color:#666; overflow:hidden; margin-top:25px; padding:3px; border:1px solid #ccc }
+.program h4{margin-bottom:5px; color:#555}
+.program img{width:70px; margin:5px; float:left}
+
+
+.footer{width:90%; padding:10px 5%; margin-top:-18px; color:#FAFAFA; background:#2C4961; }
+
+}
+@media only screen and (max-width: 480px){
+	
+#topheader{width:94%; height:120px; padding:0px 3%; background:#183B57; border-bottom:4px solid #eee}
+#topheader img{height:50px; margin-top:10px;}
+#topheader nav{}
+#topheader nav ul{}
+#topheader nav ul li{float:left;}
+#topheader nav ul li a {display:block; padding:8px 5px; font-size:17px; color:#FAFAFA; margin-top:20px}
+
+
+#aramakutusu{width:90%; height:200px; padding:10px 5%; line-height:200px; background:#406787; text-align:Center}
+#aramakutusu input{padding:12px 10px; border-radius:7px; font-size:17px; margin:10px 0px; color:#444}
+#aramakutusu input[type="text"]{width:200px; margin-top:45px;}
+#aramakutusu input[type='submit']{font-size:19px; font-weight:bold; background:#15b093; border:0;  color:#FAFAFA; width:220px}
+#aramakutusu input[type='submit']:hover{border:1px solid #eee}
+
+.kategori{width:90%; height:auto; margin:50px 2%; padding:3%; background:#EFEFEF;  padding-bottom:30px}
+.kategori h2{color:#0277BD}
+.program{width:95%; height:80px; line-height:19px; color:#666; overflow:hidden; margin-top:25px; padding:3px; border:1px solid #ccc }
+.program h4{margin-bottom:5px; color:#555}
+.program img{width:70px; margin:5px; float:left}
+
+
+.footer{width:90%; padding:10px 5%; margin-top:-18px; color:#FAFAFA; background:#2C4961; }
+
+	
+}
