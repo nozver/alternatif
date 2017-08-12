@@ -1,0 +1,38 @@
+*{margin:0; padding:0;}
+body{background:#F1F1F1}
+a{text-decoration:none}
+ul,li{list-style:none}
+
+
+#header{width:94%; padding:0px 3%; height:50px; background:#1da1f2; position:fixed; top:0; z-index:999 }
+.logo{width:40%; float:left; font-size:25px; }
+.logo img{height:30px; margin-top:10px}
+.giris{float:right; margin-top:10px; width:50%;}
+.giris ul{float:right;}
+.giris ul li{float:left}
+.giris ul li a{padding:7px 10px; color:#fff; font-size:18px; }
+
+
+#left{overflow:hidden; float:left; width:22%; margin-left:3%; margin-top:60px;}
+.hosgeldiniz{width:100%; text-align:Center; padding:20px 0;  background:#fff; font-size:18px; color:#777}
+.hosgeldiniz img{width:50%; border-radius:100px; margin-bottom:20px;}
+.hosgeldiniz input[type="text"]{padding:5px 10px; border-radius:10px; font-size:17px}
+.hosgeldiniz input[type="submit"]{padding:5px 20px; margin-top:20px; background:#1da1f2; border:0; font-size:18px; color:#fff; border-radius:10px;}
+.nav{width:100%; height:200px; background:#fff; margin-top:5px; border-top:2px solid #FAFAFA; }
+.nav ul li a{display:block; width:70%; padding:10px 30px; font-size:22px; color:#29B6F6;}
+
+
+#icerik{width:65%; margin:60px 1%; padding:30px 3%; padding-bottom:50px;  background:#fff;  display:inline-block}
+#icerik h2{color:#666; padding-bottom:30px;}
+.vaka{border:1px solid #eee; margin-top:10px; width:96%; padding:30px 2%; padding-bottom:50px; color:#444}
+.vaka a{color:#29B6F6}
+.vaka h3{margin-bottom:10px; color:#29B6F6}
+.vaka span{color:#888; margin-top:20px;}
+span.ekleyen{float:left}
+span.tarih{float:right}
+
+footer{width:94%;padding:20px 3%; background:#fff; border-top:1px solid #ccc; font-size:17px; text-align:Center}
+footer ul{}
+footer ul li{display:inline; margin-right:20px;}
+footer ul li a{color:#555;}
+footer a{color:#888}
