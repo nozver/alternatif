@@ -4,6 +4,6 @@ if(!isset($_SESSION)){
 }
 
 if (!isset($_SESSION["kullanici_adi"])){
-  header("Location:login.php");
+  header("Location:admin-login");
 }
 ?>

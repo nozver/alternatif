@@ -3,6 +3,7 @@
 
 ﻿<html>
 	<head>
+
 		<title> Özgür Yazılım Alternatifleri</title>
 
 		<link href="style.css" type="text/css" rel="stylesheet" />

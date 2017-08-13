@@ -17,14 +17,14 @@
          if (($row["kullanici_adi"] == $k_adi) && ($row["kullanici_sifre"] == $k_sifre)){
            $_SESSION["kullanici_adi"] = $k_adi;
 
-           echo '<script> window.location = "index.php"</script>'; //index.php yi değiştirdim giriş yapılınca kategori-girisi.php ye gidecek
+           echo '<script> window.location = "admin"</script>'; //index.php yi değiştirdim giriş yapılınca kategori-girisi.php ye gidecek
 																			//index.php sayfası kullanıcı girince programların göründüğü sayfa olacak sunucu ilk oraya yönlendirdiği için
          }else {
-  		 echo '<script> window.location = "login.php?login=no"</script>';
+  		 echo '<script> window.location = "admin-login"</script>';
          }
       }
     }else {
-       echo '<script> window.location = "login.php"</script>';
+       echo '<script> window.location = "admin-login"</script>';
     }
   }
 

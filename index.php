@@ -19,16 +19,16 @@
 		printf('<div class="kategori">
 			<h2>%s</h2>',$kategori);
 
-			$secim = $db->prepare("SELECT * FROM programlar WHERE program_kategori=?");
+			$secim = $db->prepare("SELECT * FROM programlar WHERE program_kategori=? ORDER BY program_id DESC LIMIT 10");
 			$secim->execute(array($kategori));
 
 			$secim_sonuc = $secim->fetchAll(PDO::FETCH_ASSOC);
 			foreach ($secim_sonuc as $key => $value) {
-				printf('<a href="ozgur-alternatif.php?program=%s"><div class="program">
+				printf('<a href="ozgur-alternatif/%s/%s"><div class="program">
 					<img src="admin/show-image.php?id=%s" />
 					<h4> %s </h4>
 					<p> %s </p>
-			</div>',$value["program_id"],$value["program_id"],$value["program_isim"],$value["program_aciklama"]);
+			</div>',seo($value["program_isim"]),$value["program_id"],$value["program_id"],$value["program_isim"],$value["program_aciklama"]);
 			}
 
 		printf("</div></a>");

@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^$ index.php [NC,L]
+RewriteRule ^hakkimizda$ about.php [NC,L]
+RewriteRule ^iletisim$ contact.php [NC,L]
+
+RewriteRule ^ozgur-alternatif/([0-9a-zA-Z-_/]+)/([0-9]+)$ ozgur-alternatif.php?program_isim=$1&program=$2 [L,QSA]

@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^admin$ index.php [NC,L]
+RewriteRule ^admin-login$ login.php [NC,L]

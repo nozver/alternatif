@@ -24,11 +24,11 @@
 			$secim_alternatif->execute(array($program_id,$tur));
 			$secim_alternatif_sonuc = $secim_alternatif->fetchAll(PDO::FETCH_ASSOC);
 			foreach ($secim_alternatif_sonuc as $key => $value) {
-				printf('<a href="ozgur-alternatif.php?program=%s"><div class="alternatif-programlar">
+				printf('<a href="ozgur-alternatif/%s/%s"><div class="alternatif-programlar">
 					<img src="admin/show-image.php?id=%s" />
 					<h3>%s</h3>
 					<p>%s</p>
-				</div></a>',$value["program_id"],$value["program_id"],$value["program_isim"],$value["program_aciklama"]);
+				</div></a>',seo($value["program_isim"]),$value["program_id"],$value["program_id"],$value["program_isim"],$value["program_aciklama"]);
 			}
 
 			printf('</div>')
