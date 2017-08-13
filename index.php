@@ -28,7 +28,7 @@
 					<img src="admin/show-image.php?id=%s" />
 					<h4> %s </h4>
 					<p> %s </p>
-			</div>',$value["program_isim"],$value["program_id"],$value["program_isim"],$value["program_aciklama"]);
+			</div>',$value["program_id"],$value["program_id"],$value["program_isim"],$value["program_aciklama"]);
 			}
 
 		printf("</div></a>");
