@@ -40,7 +40,16 @@ a .alternatif-programlar{color:#444}
 .alternatif-programlar p{font-size:17px; line-height:23px; }
 .alternatif-programlar img{height:175px; float:left; margin-right:7px}
 
+/* about.php Stilleri */
+#about{width:80%; height:auto; margin:50px 5%; padding:80px 5%; border:1px solid #ccc; color:#444}
+#about h2{margin-bottom:15px;}
+#about p{font-size:17px; line-height:22px}
 
+
+/* contact.php Stilleri */
+#contact{width:80%; height:auto; margin:50px 5%; padding:20px 5%; border:1px solid #ccc; color:#444}
+#contact h2{margin-bottom:15px; color:#388E3C}
+#
 
 
 
