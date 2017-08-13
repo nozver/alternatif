@@ -1,6 +1,6 @@
-﻿<div id="left-nav">
+﻿﻿<div id="left-nav">
 	<ul>
-		<li><a href="program-girisi.php">Prgoram Girişi</a></li>
+		<li><a href="admin">Prgoram Girişi</a></li>
 		<li><a href="#">Çıkış</a></li>
 
 	</ul>
