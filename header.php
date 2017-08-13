@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div id="topheader">
-		<a href=""><img src="admin/image/logo.png" alt="" /></a>
+		<a href="index.php"><img src="admin/image/logo.png" alt="" /></a>
 		<nav>
 			<ul>
 				<li><a href="index.php">Home</a></li>
