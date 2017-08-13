@@ -2,7 +2,7 @@
 body{background:#FAFAFA}
 ul,li{list-style:none;}
 a{text-decoration:none}
-
+.clear{clear:both}
 @media only screen and (min-width: 960px){ 
 	
 	/* İndex Sayfası */
@@ -22,15 +22,30 @@ a{text-decoration:none}
 
 .kategori{width:90%; height:auto; margin:50px 5%; background:#EFEFEF; padding:10px; padding-bottom:30px}
 .kategori h2{color:#0277BD; text-transform: capitalize}
-.program{width:30%; height:80px; line-height:19px; color:#666; overflow:hidden; display:inline-block; margin-right:2%; margin-top:15px; padding:3px; background:#333; border:1px solid #ccc }
+.program{width:30%; height:80px; line-height:19px; color:#666; overflow:hidden; display:inline-block; margin-right:2%; margin-top:15px; padding:3px; border:1px solid #ccc }
 .program h4{margin-bottom:5px; color:#555}
 .program img{width:70px; margin:5px; float:left}
 
 
-.footer{width:90%; padding:10px 5%; margin-top:-18px; color:#FAFAFA; background:#2C4961; }
+.footer{width:90%; padding:10px 5%;color:#FAFAFA; background:#2C4961; }
+
+/* Özgür Alternatif .php Stilleri */
+#alternatifi-aranan-program{float:left; width:26%; height:auto; padding:30px 2%; border-right:1px solid #ccc}
+#alternatifi-aranan-program img{width:70%; margin:10px 15%}
+#alternatifi-aranan-program p{color:#444; font-size:17px; text-align:justify}
+
+#alternatif-programlar {float:left; width:65%; height:auto; padding:30px 2%;}
+.alternatif-programlar{width:94%; height:175px; padding:10px 1%; margin:15px 2%; border:1px solid #cecece; overflow:hidden;}
+a .alternatif-programlar{color:#444}
+.alternatif-programlar p{font-size:17px; line-height:23px; }
+.alternatif-programlar img{height:175px; float:left; margin-right:7px}
+
+
+
 
 
 }
+
 @media only screen and (min-width: 801px) and (max-width: 959px)  {
 
 	/* İndex Sayfası */
