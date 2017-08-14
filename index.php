@@ -1,8 +1,68 @@
 <?php include("header.php") ?>
 
 	<div id="aramakutusu">
-		<input type="text" name="find" placeholder="Aramak İstediğiniz Program" required />
-		<input type="submit" name="ara" value="Alternatif Bul" />
+		<form action="" method="POST">
+			<input type="text" name="find" placeholder="Aramak İstediğiniz Program" required />
+			<button type="submit"><img src="admin/image/findicon.png" /></button>
+		</form>
+	</div>
+	
+	<div id="arama-onerileri">
+		<div class="oneri">
+			<img src="admin/image/1.png" />
+			<h3> Vlc Player</h3>
+			<p> CHP İstanbul Milletvekili Eren Erdem: Tüm medyayı seferber edip 24 saat Genel Başkanımıza hakaret eden Erdoğan’da “zerre kadar” yürek varsa Kemal Bey ile canlı yayına çıksın. Sizce Erdoğan’da katılacak yürek var mı?</p>
+		</div>
+		<div class="oneri">
+			<img src="admin/image/1.png" />
+			<h3> Vlc Player</h3>
+			<p> CHP İstanbul Milletvekili Eren Erdem: Tüm medyayı seferber edip 24 saat Genel Başkanımıza hakaret eden Erdoğan’da “zerre kadar” yürek varsa Kemal Bey ile canlı yayına çıksın. Sizce Erdoğan’da katılacak yürek var mı?</p>
+		</div>
+		<div class="oneri">
+			<img src="admin/image/1.png" />
+			<h3> Vlc Player</h3>
+			<p> CHP İstanbul Milletvekili Eren Erdem: Tüm medyayı seferber edip 24 saat Genel Başkanımıza hakaret eden Erdoğan’da “zerre kadar” yürek varsa Kemal Bey ile canlı yayına çıksın. Sizce Erdoğan’da katılacak yürek var mı?</p>
+		</div>
+		<div class="oneri">
+			<img src="admin/image/1.png" />
+			<h3> Vlc Player</h3>
+			<p> CHP İstanbul Milletvekili Eren Erdem: Tüm medyayı seferber edip 24 saat Genel Başkanımıza hakaret eden Erdoğan’da “zerre kadar” yürek varsa Kemal Bey ile canlı yayına çıksın. Sizce Erdoğan’da katılacak yürek var mı?</p>
+		</div>
+		<div class="oneri">
+			<img src="admin/image/1.png" />
+			<h3> Vlc Player</h3>
+			<p> CHP İstanbul Milletvekili Eren Erdem: Tüm medyayı seferber edip 24 saat Genel Başkanımıza hakaret eden Erdoğan’da “zerre kadar” yürek varsa Kemal Bey ile canlı yayına çıksın. Sizce Erdoğan’da katılacak yürek var mı?</p>
+		</div>
+		<div class="oneri">
+			<img src="admin/image/1.png" />
+			<h3> Vlc Player</h3>
+			<p> CHP İstanbul Milletvekili Eren Erdem: Tüm medyayı seferber edip 24 saat Genel Başkanımıza hakaret eden Erdoğan’da “zerre kadar” yürek varsa Kemal Bey ile canlı yayına çıksın. Sizce Erdoğan’da katılacak yürek var mı?</p>
+		</div>
+		<div class="oneri">
+			<img src="admin/image/1.png" />
+			<h3> Vlc Player</h3>
+			<p> CHP İstanbul Milletvekili Eren Erdem: Tüm medyayı seferber edip 24 saat Genel Başkanımıza hakaret eden Erdoğan’da “zerre kadar” yürek varsa Kemal Bey ile canlı yayına çıksın. Sizce Erdoğan’da katılacak yürek var mı?</p>
+		</div>
+		<div class="oneri">
+			<img src="admin/image/1.png" />
+			<h3> Vlc Player</h3>
+			<p> CHP İstanbul Milletvekili Eren Erdem: Tüm medyayı seferber edip 24 saat Genel Başkanımıza hakaret eden Erdoğan’da “zerre kadar” yürek varsa Kemal Bey ile canlı yayına çıksın. Sizce Erdoğan’da katılacak yürek var mı?</p>
+		</div>
+		<div class="oneri">
+			<img src="admin/image/1.png" />
+			<h3> Vlc Player</h3>
+			<p> CHP İstanbul Milletvekili Eren Erdem: Tüm medyayı seferber edip 24 saat Genel Başkanımıza hakaret eden Erdoğan’da “zerre kadar” yürek varsa Kemal Bey ile canlı yayına çıksın. Sizce Erdoğan’da katılacak yürek var mı?</p>
+		</div>
+		<div class="oneri">
+			<img src="admin/image/1.png" />
+			<h3> Vlc Player</h3>
+			<p> CHP İstanbul Milletvekili Eren Erdem: Tüm medyayı seferber edip 24 saat Genel Başkanımıza hakaret eden Erdoğan’da “zerre kadar” yürek varsa Kemal Bey ile canlı yayına çıksın. Sizce Erdoğan’da katılacak yürek var mı?</p>
+		</div>
+		<div class="oneri">
+			<img src="admin/image/1.png" />
+			<h3> Vlc Player</h3>
+			<p> CHP İstanbul Milletvekili Eren Erdem: Tüm medyayı seferber edip 24 saat Genel Başkanımıza hakaret eden Erdoğan’da “zerre kadar” yürek varsa Kemal Bey ile canlı yayına çıksın. Sizce Erdoğan’da katılacak yürek var mı?</p>
+		</div>
 	</div>
 	
 	<?php

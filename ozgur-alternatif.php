@@ -1,8 +1,10 @@
 ﻿<?php include("header.php") ?>
 
 	<div id="aramakutusu">
-		<input type="text" name="find" placeholder="Aramak İstediğiniz Program" required />
-		<input type="submit" name="ara" value="Alternatif Bul" />
+		<form action="" method="POST">
+			<input type="text" name="find" placeholder="Aramak İstediğiniz Program" required />
+			<button type="submit"><img src="admin/image/findicon.png" /></button>
+		</form>
 	</div>
 
 	<div id="alternatifi-aranan-program">
