@@ -1,9 +1,10 @@
 <?php
 if(!isset($_SESSION)){
-  session_start();
+  @session_start();
 }
 
 if (!isset($_SESSION["kullanici_adi"])){
-  header("Location:admin-login");
+	echo '<script> window.location = "admin-login"</script>';
+  
 }
 ?>

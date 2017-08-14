@@ -4,7 +4,7 @@
 		<input type="text" name="find" placeholder="Aramak İstediğiniz Program" required />
 		<input type="submit" name="ara" value="Alternatif Bul" />
 	</div>
-
+	
 	<?php
 		$kategoriler = array();
 		$kategori = $db->prepare("SELECT program_kategori FROM programlar");

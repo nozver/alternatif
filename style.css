@@ -29,6 +29,9 @@ a{text-decoration:none}
 
 .footer{width:90%; padding:10px 5%;color:#FAFAFA; background:#2C4961; }
 
+/* Arama Önerileri Kutusu  */
+#arama-onerileri{width:400px; height:auto; background:#fff; position:fixed;}
+
 /* Özgür Alternatif .php Stilleri */
 #alternatifi-aranan-program{float:left; width:26%; height:auto; padding:30px 2%; border-right:1px solid #ccc}
 #alternatifi-aranan-program img{width:70%; margin:10px 15%}

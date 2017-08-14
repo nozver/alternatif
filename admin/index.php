@@ -1,6 +1,5 @@
-﻿
-	<?php 	include('header.php'); ?>
-	<?php   include('left-nav.php') ?>
+﻿<?php   include('header.php'); ?>
+<?php   include('left-nav.php') ?>
 
 <div id="content">
 

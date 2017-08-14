@@ -1,6 +1,6 @@
 RewriteEngine On
 
-RewriteRule ^$ index.php [NC,L]
+RewriteRule ^home$ index.php [NC,L]
 RewriteRule ^hakkimizda$ about.php [NC,L]
 RewriteRule ^iletisim$ contact.php [NC,L]
 
