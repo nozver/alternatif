@@ -5,8 +5,8 @@ a{text-decoration:none}
 .clear{clear:both}
 
 
-@media only screen and (min-width: 960px){ 
-	
+@media only screen and (min-width: 960px){
+
 	/* İndex Sayfası */
 #topheader{width:94%; height:100px; padding:0px 3%; background:#183B57; border-bottom:4px solid #eee}
 #topheader img{height:60px; margin-top:20px;}
@@ -34,7 +34,7 @@ a{text-decoration:none}
 
 
 /* Arama Önerileri Kutusu  */
-#arama-onerileri{width:40%; height:460px; margin:0px 28%; overflow-y:scroll; padding:20px 1%; background:#fff; position:absolute; top:254px; }
+#arama-onerileri{width:40%; height:auto; margin:0px 28%; overflow-y:scroll; padding:20px 1%; background:#fff; position:absolute; top:254px; }
 .oneri{width:94%; height:80px; padding:5px 0px; border:1px solid #ccc; margin:10px 3%; overflow:hidden; color:#444}
 .oneri img{height:50px; margin:10px; float:left;}
 .oneri p{line-height:21px;}
@@ -94,7 +94,7 @@ a .alternatif-programlar{color:#444}
 .footer{width:90%; padding:10px 5%; margin-top:-18px; color:#FAFAFA; background:#2C4961; }
 
 /* Arama Önerileri Kutusu  */
-#arama-onerileri{width:50%; height:460px; margin:0px 23%; overflow-y:scroll; padding:20px 1%; background:#fff; position:absolute; top:254px; }
+#arama-onerileri{width:50%; height:auto; margin:0px 23%; overflow-y:scroll; padding:20px 1%; background:#fff; position:absolute; top:254px; }
 .oneri{width:94%; height:80px; padding:5px 0px; border:1px solid #ccc; margin:10px 3%; overflow:hidden; color:#444}
 .oneri img{height:50px; margin:10px; float:left;}
 .oneri p{line-height:21px;}
@@ -125,7 +125,7 @@ a .alternatif-programlar{color:#444}
 
 }
 @media only screen and (min-width: 481px) and (max-width: 800px) {
-	
+
 #topheader{width:94%; height:100px; padding:0px 3%; background:#183B57; border-bottom:4px solid #eee}
 #topheader img{height:40px; margin-top:30px;}
 #topheader nav{float:right}
@@ -152,7 +152,7 @@ a .alternatif-programlar{color:#444}
 
 
 /* Arama Önerileri Kutusu  */
-#arama-onerileri{width:60%; height:460px; margin:0px 18%; overflow-y:scroll; padding:20px 1%; background:#fff; position:absolute; top:254px; }
+#arama-onerileri{width:60%; height:auto; margin:0px 18%; overflow-y:scroll; padding:20px 1%; background:#fff; position:absolute; top:254px; }
 .oneri{width:94%; height:80px; padding:5px 0px; border:1px solid #ccc; margin:10px 3%; overflow:hidden; color:#444}
 .oneri img{height:50px; margin:10px; float:left;}
 .oneri p{line-height:21px;}
@@ -183,7 +183,7 @@ a .alternatif-programlar{color:#444}
 
 }
 @media only screen and (max-width: 480px){
-	
+
 #topheader{width:94%; height:120px; padding:0px 3%; background:#183B57; border-bottom:4px solid #eee}
 #topheader img{height:50px; margin-top:10px;}
 #topheader nav{}
@@ -207,7 +207,7 @@ a .alternatif-programlar{color:#444}
 .footer{width:90%; padding:10px 5%; margin-top:-18px; color:#FAFAFA; background:#2C4961; }
 
 /* Arama Önerileri Kutusu  */
-#arama-onerileri{width:92%; height:460px; margin:0px 3%; overflow-y:scroll; padding:20px 1%; background:#fff; position:absolute; top:280px; }
+#arama-onerileri{width:92%; height:auto; margin:0px 3%; overflow-y:scroll; padding:20px 1%; background:#fff; position:absolute; top:280px; }
 .oneri{width:94%; height:80px; padding:5px 0px; border:1px solid #ccc; margin:10px 3%; overflow:hidden; color:#444}
 .oneri img{height:50px; margin:10px; float:left;}
 .oneri p{line-height:21px;}

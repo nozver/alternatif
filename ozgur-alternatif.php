@@ -1,11 +1,7 @@
-﻿<?php include("header.php") ?>
-
-	<div id="aramakutusu">
-		<form action="" method="POST">
-			<input type="text" name="find" placeholder="Aramak İstediğiniz Program" required />
-			<button type="submit"><img src="admin/image/findicon.png" /></button>
-		</form>
-	</div>
+﻿<?php
+	include("header.php");
+	include("arama.php");
+?>
 
 	<div id="alternatifi-aranan-program">
 		<?php
